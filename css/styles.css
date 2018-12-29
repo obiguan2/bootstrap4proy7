@@ -1,0 +1,69 @@
+:root {
+    --primero: #8bc34a;
+    --segundo: #03a9f4;
+    --tercero: #ab47bc;
+    --cuarto: #ffb300;
+    --gris: #ecf0f5;
+    --azul: #25476a;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+/* LOGIN */
+body.login {
+    background-image: url(../img/libros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body.login .contenido {
+    border-radius: 10px;
+    /* https://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: 0px 22px 24px -12px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 22px 24px -12px rgba(0,0,0,0.52);
+    box-shadow: 0px 22px 24px -12px rgba(0,0,0,0.52);
+}
+.btn-primary, .bg-primary {
+    background-color: #03a9f4!important;
+}
+.bd-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1100;
+}
+/* NAVEGACION */
+aside {
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    margin-top: 56px;
+    top: 0;
+    bottom: 0;
+}
+/* Seccion principal */
+main {
+    margin-left: 260px; /* Tamaña de la navegacion */
+    position: relative;
+    left: 0;
+    min-height: 100%;
+}
+.boton {
+    min-height: 120px;
+}
+.boton i {
+    font-size: 3rem;
+}
+.bg-success, .btn-success {
+    background-color: #8bc34a!important;
+}
+.boton a:hover {
+    color: white!important;
+    text-decoration: none;
+}
+/* GRAFICA */
+#ventas {
+    height: 250px;
+}
